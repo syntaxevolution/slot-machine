@@ -7,7 +7,7 @@
  * Date: 05/05/15
  * Copyright (c) 2006-2015 Apus Agency
  */
-use Unglued\SlotMachine;
+use SyntaxEvolution\SlotMachine;
 
 require_once __DIR__ . '/vendor/autoload.php';
 
