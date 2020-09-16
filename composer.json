@@ -1,5 +1,5 @@
 {
-  "name": "unglud/slot-machine",
+  "name": "syntaxevolution/slot-machine",
   "description": "Simple slot machine algorithm",
   "license": "MIT",
   "authors": [
@@ -12,13 +12,11 @@
     "psr-4": {
       "Unglued\\": "src"
     },
-    "files":["src/helpers.php"]
   },
   "require": {
     "php": ">=5.3.0"
   },
   "require-dev":{
-    "symfony/var-dumper": "3.0.*@dev",
     "phpunit/phpunit": "*"
   }
 }
