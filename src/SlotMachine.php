@@ -91,7 +91,8 @@ class SlotMachine
 
         $tmp = [];
         foreach ($result as $res) {
-            @$tmp[$res] += 1;
+            $tmp[$res] = isset($tmp[$res]) ? $tmp[$res] : 0;
+            $tmp[$res] += 1;
         }
         $orig = $tmp;
         asort($tmp);
